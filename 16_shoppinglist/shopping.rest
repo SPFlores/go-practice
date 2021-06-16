@@ -1,0 +1,22 @@
+GET http://localhost:8080/shopping-items
+
+### Create new
+POST http://localhost:8080/shopping-items
+Content-Type: application/json
+
+{
+  "name": "Pasta"
+}
+
+### Delete item
+DELETE http://localhost:8080/shopping-items/3d2ad165-4637-47cd-a0a7-e542c628d21f
+
+
+### something else
+POST http://localhost:8080/shopping-items
+Content-Type: application/json
+
+{
+  "name": "ice cream"
+}
+
